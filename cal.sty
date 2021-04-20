@@ -1,0 +1,22 @@
+\ProvidesPackage{cal}
+
+\usepackage[ampersand]{easylist}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{soul}
+\usepackage{xhfill}
+
+\newcommand{\blankspace}{\rule{1cm}{0.05mm}}
+
+\newcommand\signature[1]{% Name; Position
+\noindent\begin{minipage}{5cm}
+    \noindent\vspace{3cm}\par
+    \noindent\rule{5cm}{1pt}\par
+    \noindent\footnotesize{#1}\par
+    \noindent\vspace{5mm}\par
+    \noindent\rule{5cm}{1pt}\par
+    \noindent\footnotesize{Date}
+\end{minipage}}
