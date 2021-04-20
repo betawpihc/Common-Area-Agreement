@@ -21,10 +21,10 @@ jobs:
       - name: Github Action for LaTeX
         uses: xu-cheng/latex-action@v2
         with: 
-          root_file: lease.tex
+          root_file: cal.tex
       - uses: actions/upload-artifact@v2
         with:
           name: PDF
-          path: lease.pdf
+          path: cal.pdf
         
 
